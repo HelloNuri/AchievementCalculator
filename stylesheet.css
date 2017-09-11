@@ -1,0 +1,30 @@
+/*선택자 : 태그*/
+a{
+  color: black;
+  text-decoration: none;
+}
+/*클래스*/
+.method{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: rgb(159, 159, 159);
+}
+    /*아래 두 개는 텍스트 가운데 정렬을 위한 것*/
+.align{
+  display: table;
+}
+.align_{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+}
+/*추가한 과목들*/
+.subject{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: green;
+  font-size: 20px;
+}
